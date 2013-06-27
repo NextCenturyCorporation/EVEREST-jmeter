@@ -1,0 +1,1 @@
+Folder for common functions/scripts used in the JMeter functional tests
