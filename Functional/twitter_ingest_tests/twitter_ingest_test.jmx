@@ -203,7 +203,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-547797305">&quot;success&quot;:true</stringProp>
+              <stringProp name="1684151609">&quot;success&quot;\s*:\s*true</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
@@ -246,7 +246,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-547797305">&quot;success&quot;:true</stringProp>
+              <stringProp name="1684151609">&quot;success&quot;\s*:\s*true</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
@@ -289,7 +289,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="184708874">&quot;success&quot;:false</stringProp>
+              <stringProp name="655648472">&quot;success&quot;\s*:\s*false</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
@@ -347,7 +347,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-547797305">&quot;success&quot;:true</stringProp>
+              <stringProp name="1684151609">&quot;success&quot;\s*:\s*true</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
@@ -390,7 +390,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-547797305">&quot;success&quot;:true</stringProp>
+              <stringProp name="1684151609">&quot;success&quot;\s*:\s*true</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
@@ -429,7 +429,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-66643997">&quot;feedSource&quot;\s*:&quot;Twitter&quot;</stringProp>
+              <stringProp name="-1812497044">&quot;feedSource&quot;\s*:\s*&quot;Twitter&quot;</stringProp>
               <stringProp name="1369680106">created_at</stringProp>
               <stringProp name="-460163995">followers_count</stringProp>
             </collectionProp>
