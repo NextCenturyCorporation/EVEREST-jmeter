@@ -364,7 +364,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="Test assertions" enabled="false">
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="Test assertions" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -428,7 +428,7 @@
           <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">false</stringProp>
             <stringProp name="RegexExtractor.refname">assert_id</stringProp>
-            <stringProp name="RegexExtractor.regex">&quot;_id&quot;:&quot;([0-9a-f]+)&quot;</stringProp>
+            <stringProp name="RegexExtractor.regex">&quot;_id&quot;\s*:\s*&quot;([0-9a-f]+)&quot;</stringProp>
             <stringProp name="RegexExtractor.template">$1$</stringProp>
             <stringProp name="RegexExtractor.default"></stringProp>
             <stringProp name="RegexExtractor.match_number">1</stringProp>
@@ -695,16 +695,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="96784904">error</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">2</intProp>
-          </ResponseAssertion>
-          <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="52469">500</stringProp>
+              <stringProp name="49586">200</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -918,7 +909,7 @@
         <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
           <stringProp name="RegexExtractor.useHeaders">false</stringProp>
           <stringProp name="RegexExtractor.refname">target_id</stringProp>
-          <stringProp name="RegexExtractor.regex">&quot;_id&quot;:&quot;([0-9a-f]+)&quot;</stringProp>
+          <stringProp name="RegexExtractor.regex">&quot;_id&quot;\s*:\s*&quot;([0-9a-f]+)&quot;</stringProp>
           <stringProp name="RegexExtractor.template">$1$</stringProp>
           <stringProp name="RegexExtractor.default"></stringProp>
           <stringProp name="RegexExtractor.match_number">1</stringProp>
