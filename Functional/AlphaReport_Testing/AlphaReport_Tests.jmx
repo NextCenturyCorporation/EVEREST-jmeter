@@ -348,7 +348,7 @@
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="612341475">&quot;error&quot;\s*:</stringProp>
-              <stringProp name="-64501943">Invalid AlphaReport</stringProp>
+              <stringProp name="315810335">Invalid Alpha Report</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
