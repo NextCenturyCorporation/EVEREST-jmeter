@@ -584,7 +584,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1524474920">&quot;id&quot;\s*:\s*&quot;${alpha_report_id}&quot;</stringProp>
+              <stringProp name="-1224569101">&quot;_id&quot;\s*:\s*&quot;${alpha_report_id}&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
