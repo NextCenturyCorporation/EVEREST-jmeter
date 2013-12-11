@@ -16,7 +16,7 @@
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
         <stringProp name="HTTPSampler.domain">localhost</stringProp>
-        <stringProp name="HTTPSampler.port">${__P(server.port,8081)}</stringProp>
+        <stringProp name="HTTPSampler.port">${__P(server.port,5454)}</stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
         <stringProp name="HTTPSampler.protocol"></stringProp>
@@ -531,7 +531,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-&quot;name&quot;: &quot;test place ${__threadNum}-${__counter(true, counter)}-${__time(/997, curTime)}&quot;,&#xd;
+&quot;name&quot;: &quot;test place ${__threadNum}-${__time(/997, curTime)}&quot;,&#xd;
 &quot;latitude&quot;:${__Random(-90, 90, lat)},&#xd;
 &quot;longitude&quot;:${__Random(-180, 180, lon)},&#xd;
 &quot;radius&quot;:${__Random(1, 15, radius)}&#xd;
@@ -720,7 +720,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-&quot;name&quot;: &quot;test place ${__threadNum}-${__counter(true, counter)}-${__time(/997, curTime)}&quot;,&#xd;
+&quot;name&quot;: &quot;test place ${__threadNum}-${__counter(true, counter)}&quot;,&#xd;
 &quot;latitude&quot;:${__Random(-90, 90, lat)},&#xd;
 &quot;longitude&quot;:${__Random(-180, 180, lon)},&#xd;
 &quot;radius&quot;:${__Random(1, 15, radius)}&#xd;
@@ -961,7 +961,12 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;name&quot;:&quot;star trek&quot;,&quot;description&quot;:&quot;is cool&quot;}</stringProp>
+                <stringProp name="Argument.value">{&#xd;
+&quot;name&quot;: &quot;test place1&quot;,&#xd;
+&quot;latitude&quot;:0,&#xd;
+&quot;longitude&quot;:0,&#xd;
+&quot;radius&quot;:0&#xd;
+}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -1002,7 +1007,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="Modify first event with existing name" enabled="true">
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="Modify first place with existing name" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1066,7 +1071,12 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;name&quot;:&quot;Joe&quot;,&quot;description&quot;: &quot;a change of description&quot;}</stringProp>
+                <stringProp name="Argument.value">{&#xd;
+&quot;name&quot;: &quot;test place1&quot;,&#xd;
+&quot;latitude&quot;:10,&#xd;
+&quot;longitude&quot;:10,&#xd;
+&quot;radius&quot;:10&#xd;
+}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
